@@ -7,12 +7,12 @@ Here's a small project I wrote to output step-by-step the process of solving a l
 There are three main difficulties in this project:
 
 1. Solve RREF. [sympy](https://docs.sympy.org/latest/tutorials/intro-tutorial/matrices.html) provides library functions`.rref()`, so convert to Matrix format and you can use it easily (don't forget to convert back).
-2. Matrix inversion. I use [Gaussian elimination]([Gaussian elimination - Wikipedia](https://en.wikipedia.org/wiki/Gaussian_elimination#Finding_the_inverse_of_a_matrix)) to solve this problem.
-3. Fractional output. By using [fractions]([fractions — Rational numbers — Python 3.10.7 documentation](https://docs.python.org/3/library/fractions.html)), I got the output in fractional form, and then taking the numerator and denominator separately, I was able to output `\frac{}{}` format.
+2. Matrix inversion. I use [Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination#Finding_the_inverse_of_a_matrix) to solve this problem.
+3. Fractional output. By using [fractions](https://docs.python.org/3/library/fractions.html), I got the output in fractional form, and then taking the numerator and denominator separately, I was able to output `\frac{}{}` format.
 
 ## Setup
 
-You need to use [python]([Welcome to Python.org](https://www.python.org/)) to run the program. In addition, you also need to install some dependent library files:
+You need to use [python](https://www.python.org/) to run the program. In addition, you also need to install some dependent library files:
 
 ```python
 pip install numpy sympy fractions
